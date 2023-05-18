@@ -44,7 +44,7 @@ For more details see issue [#12122](https://github.com/camunda/zeebe/issues/1212
 
 ####  1.2.1. <a name='SupportSignalIntermediateThrowandEndevents'></a>Support Signal Intermediate Throw and End events
 
-Previously, signal events could be broadcast from a client library over the gRPC API, but not from within BPMN itself. 
+Signal events could be broadcast from a client library over the gRPC API, but not from within BPMN itself. 
 
 With this release, Signal Intermediate Throw and Signal End events are implemented. Now users can deploy models that use these events, and a signal will be broadcast to all running process instances when the event is processed.
 
@@ -62,7 +62,7 @@ For more details, see issue [#12000](https://github.com/camunda/zeebe/issues/120
 
 ####  1.2.3. <a name='RemovedJVMdefault-Xms128forDockerimage'></a>Removed JVM default -Xms128 for Docker image
 
-Previously, the Docker image for Zeebe had a hardcoded `-Xms128` as a JVM startup parameter.  Consequently, users could not override this parameter with a custom value in `JAVA_OPTS`. 
+The Docker image for Zeebe had a hardcoded `-Xms128` as a JVM startup parameter.  Consequently, users could not override this parameter with a custom value in `JAVA_OPTS`. 
 
 With this release, the hardcoded value has been removed. The Docker image now uses the JVM default, and the parameter is available for override by users. 
 
@@ -86,7 +86,7 @@ For more details see issue [#12509](https://github.com/camunda/zeebe/issues/1250
 
 ####  2.2. <a name='TerminatingaprocessinstancewithmanychildelementsfailsblacklistinginstanceorcausinganOOMexception'></a>Terminating a process instance with many child elements fails, blacklisting instance or causing an OOM exception
 
-Previously, terminating a process instance was done by sending a terminate command to every child element. If a process instance had many child elements, this could cause an exception. This exception would lead to the process instance being blacklisted, or - with sufficient child elements - would cause an OOM exception.
+Terminating a process instance was done by sending a terminate command to every child element. If a process instance had many child elements, this could cause an exception. This exception would lead to the process instance being blacklisted, or - with sufficient child elements - would cause an OOM exception.
 
 This release implements a new batching system for the termination command that significantly reduces the resource requirement. A large class of process instances with many child elements that caused errors on termination will now terminate without issue.
 
@@ -104,7 +104,7 @@ For more details, see issue [#12597](https://github.com/camunda/zeebe/issues/125
 
 ####  2.4. <a name='BrokerwillnotstartwhenS3backupstoreconfiguredandcredentialsinAWSproviderchain'></a>Broker will not start when S3 backup store configured and credentials in AWS provider chain
 
-Due to a regression introduced in 8.1.9, when a broker has the (experimental) backup feature enabled and set to `S3`, if the S3 secrets are in the AWS provider chain, rather than environment variables, the broker will fail to start.
+Due to a regression introduced in 8.1.9, when a broker had the (experimental) backup feature enabled and set to `S3`, if the S3 secrets were in the AWS provider chain, rather than environment variables, the broker will fail to start.
 
 In this release, the breaking change has been fixed, and the broker correctly loads the secrets from the AWS provider chain in this case. 
 
