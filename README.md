@@ -28,7 +28,7 @@
 
 ####  1.1.1. <a name='Configurableinboundmax_message_size'></a>Configurable inbound `max_message_size`
 
-Previously, the Java Client had `maxInboundMessageSize` for the gRPC channel hardcoded to 4MB. 
+The Java Client had `maxInboundMessageSize` for the gRPC channel hardcoded to 4MB. 
 
 As a result, when creating a process instance `.withResult()`, the Java client would throw an error upon the process completion, as it could not receive a variable payload in excess of 4MB as the process instance outcome. 
 
@@ -76,9 +76,11 @@ For more details see issue [#12416](https://github.com/camunda/zeebe/issues/1241
 
 ####  2.1. <a name='Simultaneouslyexpiringmessagesstoppartitionprocessing'></a>Simultaneously expiring messages stop partition processing
 
-In 8.1.9 we introduced a regression that performs an unsafe concurrent access to a writer of a shared record value. This causes the processing actor to fail on a partition when two messages expire at the same time. The effect of this depends on the broker configuration. By default,  all processing is stopped on the partition until the broker is restarted or another leader is elected for the partition. On the other hand, if the (experimental) feature flag `enableMessageTtlCheckerAsync` is enabled, then processing continues on the partition, with the exception of further message expirations, which are not processed. 
+In 8.1.9 we introduced a regression that performs an unsafe concurrent access to a writer of a shared record value. When this occurs, a message similar to `java.lang.RuntimeException: Could not deserialize object [MessageRecord]. Deserialization stuck at offset 24 of length 69` is observed in the broker log. 
 
-In this release, access to the shared record is managed to make it thread-safe.  
+This error causes the processing actor to fail on a partition when two messages expire at the same time. The effect of this depends on the broker configuration. By default,  all processing is stopped on the partition until the broker is restarted or another leader is elected for the partition. On the other hand, if the (experimental) feature flag `enableMessageTtlCheckerAsync` is enabled, then processing continues on the partition, with the exception of further message expirations, which are not processed. 
+
+In this release, access to the shared record is managed to make it thread-safe. As a result, simultaneously expiring messages no longer cause a processing failure on a partition.
 
 This fix has been backported to 8.1.11 and 8.2.3.
 
