@@ -1,0 +1,1434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:zeebe="http://camunda.org/schema/zeebe/1.0" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Web Modeler" exporterVersion="bd35223" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.2.0" camunda:diagramRelationId="f8d0ad20-46e9-47b3-9032-60c4ccd7fa94">
+  <bpmn:process id="Process_0ghewer" isExecutable="true">
+    <bpmn:extensionElements>
+      <zeebe:userTaskForm id="userTaskForm_0h101cj">{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "8.3.0",
+          "value": "8.3.0"
+        },
+        {
+          "label": "8.3.1",
+          "value": "8.3.1"
+        }
+      ],
+      "label": "Target Release Version",
+      "type": "select",
+      "layout": {
+        "row": "Row_1x8xapm",
+        "columns": null
+      },
+      "id": "Field_0r3v3p4",
+      "key": "targetReleaseVersion",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "8.3.0-alpha1",
+          "value": "8.3.0-alpha1"
+        },
+        {
+          "label": "8.3.0-alpha2",
+          "value": "8.3.0-alpha2"
+        }
+      ],
+      "label": "Released in Version",
+      "type": "select",
+      "layout": {
+        "row": "Row_1oq0eko",
+        "columns": null
+      },
+      "id": "Field_09q9a9k",
+      "key": "field_13d5l76",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Zeebe Broker",
+          "value": "Zeebe Broker"
+        },
+        {
+          "label": "Zeebe Client",
+          "value": "Zeebe Client"
+        },
+        {
+          "label": "Operate",
+          "value": "Operate"
+        },
+        {
+          "label": "Tasklist",
+          "value": "Tasklist"
+        },
+        {
+          "label": "Optimize",
+          "value": "Optimize"
+        }
+      ],
+      "label": "Component",
+      "type": "select",
+      "layout": {
+        "row": "Row_1hoq1h1",
+        "columns": null
+      },
+      "id": "Field_178iess",
+      "key": "field_1qf7udb",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Value",
+          "value": "value"
+        },
+        {
+          "label": "Enhancement",
+          "value": "Enhancement"
+        },
+        {
+          "label": "Bug Fix",
+          "value": "Bug Fix"
+        }
+      ],
+      "label": "Issue Type",
+      "type": "select",
+      "layout": {
+        "row": "Row_0ing7gx",
+        "columns": null
+      },
+      "id": "Field_15iuoog",
+      "key": "field_1jzdp3c",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "GitHub Issue Title",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ljwkgc",
+        "columns": null
+      },
+      "id": "Field_0h4u2od",
+      "key": "githubIssueTitle",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "GitHub Issue URL",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0fsjtgk",
+        "columns": null
+      },
+      "id": "Field_0tewemb",
+      "key": "githubIssueUrl",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Include in Release Notes?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1bb79qs",
+        "columns": null
+      },
+      "id": "Field_1yr251k",
+      "key": "includeInReleaseNotes",
+      "defaultValue": true
+    },
+    {
+      "label": "Issue Title",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0f85xf7",
+        "columns": null
+      },
+      "id": "Field_0tl3gu6",
+      "key": "issueTitle"
+    },
+    {
+      "label": "Release Note Text",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_08bisaj",
+        "columns": null
+      },
+      "id": "Field_03myn2n",
+      "key": "releaseNoteText",
+      "description": "The release note text, in the form of a \"Cause-Consequence-Fix-Result\" story."
+    },
+    {
+      "label": "Needs more info",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0rf85s6",
+        "columns": null
+      },
+      "id": "Field_1y4wzdo",
+      "key": "needsInfo",
+      "defaultValue": true
+    },
+    {
+      "label": "Reviewed by Engineering",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_01hbxjw",
+        "columns": null
+      },
+      "id": "Field_01bx3yg",
+      "key": "reviewedEngineering",
+      "description": "Check when Release Note content has been reviewed by Engineering"
+    },
+    {
+      "label": "Reviewed by PM",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_15i6qzs",
+        "columns": null
+      },
+      "id": "Field_1o4tsbj",
+      "key": "reviewedPM",
+      "description": "Check when release note content has been reviewed by Product Management"
+    }
+  ],
+  "schemaVersion": 9,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "bd35223"
+  },
+  "type": "default",
+  "id": "Form_1fg87g5",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0"
+}</zeebe:userTaskForm>
+      <zeebe:userTaskForm id="userTaskForm_1pi7002">{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "8.3.0",
+          "value": "8.3.0"
+        },
+        {
+          "label": "8.3.1",
+          "value": "8.3.1"
+        }
+      ],
+      "label": "Target Release Version",
+      "type": "select",
+      "layout": {
+        "row": "Row_1x8xapm",
+        "columns": null
+      },
+      "id": "Field_0r3v3p4",
+      "key": "targetReleaseVersion",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "8.3.0-alpha1",
+          "value": "8.3.0-alpha1"
+        },
+        {
+          "label": "8.3.0-alpha2",
+          "value": "8.3.0-alpha2"
+        }
+      ],
+      "label": "Released in Version",
+      "type": "select",
+      "layout": {
+        "row": "Row_1oq0eko",
+        "columns": null
+      },
+      "id": "Field_09q9a9k",
+      "key": "field_13d5l76",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Zeebe Broker",
+          "value": "Zeebe Broker"
+        },
+        {
+          "label": "Zeebe Client",
+          "value": "Zeebe Client"
+        },
+        {
+          "label": "Operate",
+          "value": "Operate"
+        },
+        {
+          "label": "Tasklist",
+          "value": "Tasklist"
+        },
+        {
+          "label": "Optimize",
+          "value": "Optimize"
+        }
+      ],
+      "label": "Component",
+      "type": "select",
+      "layout": {
+        "row": "Row_1hoq1h1",
+        "columns": null
+      },
+      "id": "Field_178iess",
+      "key": "field_1qf7udb",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Value",
+          "value": "value"
+        },
+        {
+          "label": "Enhancement",
+          "value": "Enhancement"
+        },
+        {
+          "label": "Bug Fix",
+          "value": "Bug Fix"
+        }
+      ],
+      "label": "Issue Type",
+      "type": "select",
+      "layout": {
+        "row": "Row_0ing7gx",
+        "columns": null
+      },
+      "id": "Field_15iuoog",
+      "key": "field_1jzdp3c",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "GitHub Issue Title",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ljwkgc",
+        "columns": null
+      },
+      "id": "Field_0h4u2od",
+      "key": "githubIssueTitle",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "GitHub Issue URL",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0fsjtgk",
+        "columns": null
+      },
+      "id": "Field_0tewemb",
+      "key": "githubIssueUrl",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Include in Release Notes?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1bb79qs",
+        "columns": null
+      },
+      "id": "Field_1yr251k",
+      "key": "includeInReleaseNotes",
+      "defaultValue": true
+    },
+    {
+      "label": "Issue Title",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0f85xf7",
+        "columns": null
+      },
+      "id": "Field_0tl3gu6",
+      "key": "issueTitle"
+    },
+    {
+      "label": "Release Note Text",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_08bisaj",
+        "columns": null
+      },
+      "id": "Field_03myn2n",
+      "key": "releaseNoteText",
+      "description": "The release note text, in the form of a \"Cause-Consequence-Fix-Result\" story."
+    },
+    {
+      "label": "Needs more info",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0rf85s6",
+        "columns": null
+      },
+      "id": "Field_1y4wzdo",
+      "key": "needsInfo",
+      "defaultValue": true
+    },
+    {
+      "label": "Reviewed by Engineering",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_01hbxjw",
+        "columns": null
+      },
+      "id": "Field_01bx3yg",
+      "key": "reviewedEngineering",
+      "description": "Check when Release Note content has been reviewed by Engineering"
+    },
+    {
+      "label": "Reviewed by PM",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_15i6qzs",
+        "columns": null
+      },
+      "id": "Field_1o4tsbj",
+      "key": "reviewedPM",
+      "description": "Check when release note content has been reviewed by Product Management"
+    }
+  ],
+  "schemaVersion": 9,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "bd35223"
+  },
+  "type": "default",
+  "id": "Form_1fg87g5",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0"
+}</zeebe:userTaskForm>
+      <zeebe:userTaskForm id="userTaskForm_16gbnbk">{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "8.3.0",
+          "value": "8.3.0"
+        },
+        {
+          "label": "8.3.1",
+          "value": "8.3.1"
+        }
+      ],
+      "label": "Target Release Version",
+      "type": "select",
+      "layout": {
+        "row": "Row_1x8xapm",
+        "columns": null
+      },
+      "id": "Field_0r3v3p4",
+      "key": "targetReleaseVersion",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "8.3.0-alpha1",
+          "value": "8.3.0-alpha1"
+        },
+        {
+          "label": "8.3.0-alpha2",
+          "value": "8.3.0-alpha2"
+        }
+      ],
+      "label": "Released in Version",
+      "type": "select",
+      "layout": {
+        "row": "Row_1oq0eko",
+        "columns": null
+      },
+      "id": "Field_09q9a9k",
+      "key": "field_13d5l76",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Zeebe Broker",
+          "value": "Zeebe Broker"
+        },
+        {
+          "label": "Zeebe Client",
+          "value": "Zeebe Client"
+        },
+        {
+          "label": "Operate",
+          "value": "Operate"
+        },
+        {
+          "label": "Tasklist",
+          "value": "Tasklist"
+        },
+        {
+          "label": "Optimize",
+          "value": "Optimize"
+        }
+      ],
+      "label": "Component",
+      "type": "select",
+      "layout": {
+        "row": "Row_1hoq1h1",
+        "columns": null
+      },
+      "id": "Field_178iess",
+      "key": "field_1qf7udb",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Value",
+          "value": "value"
+        },
+        {
+          "label": "Enhancement",
+          "value": "Enhancement"
+        },
+        {
+          "label": "Bug Fix",
+          "value": "Bug Fix"
+        }
+      ],
+      "label": "Issue Type",
+      "type": "select",
+      "layout": {
+        "row": "Row_0ing7gx",
+        "columns": null
+      },
+      "id": "Field_15iuoog",
+      "key": "field_1jzdp3c",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "GitHub Issue Title",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ljwkgc",
+        "columns": null
+      },
+      "id": "Field_0h4u2od",
+      "key": "githubIssueTitle",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "GitHub Issue URL",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0fsjtgk",
+        "columns": null
+      },
+      "id": "Field_0tewemb",
+      "key": "githubIssueUrl",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Include in Release Notes?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1bb79qs",
+        "columns": null
+      },
+      "id": "Field_1yr251k",
+      "key": "includeInReleaseNotes",
+      "defaultValue": true
+    },
+    {
+      "label": "Issue Title",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0f85xf7",
+        "columns": null
+      },
+      "id": "Field_0tl3gu6",
+      "key": "issueTitle"
+    },
+    {
+      "label": "Release Note Text",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_08bisaj",
+        "columns": null
+      },
+      "id": "Field_03myn2n",
+      "key": "releaseNoteText",
+      "description": "The release note text, in the form of a \"Cause-Consequence-Fix-Result\" story."
+    },
+    {
+      "label": "Needs more info",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0rf85s6",
+        "columns": null
+      },
+      "id": "Field_1y4wzdo",
+      "key": "needsInfo",
+      "defaultValue": true
+    },
+    {
+      "label": "Reviewed by Engineering",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_01hbxjw",
+        "columns": null
+      },
+      "id": "Field_01bx3yg",
+      "key": "reviewedEngineering",
+      "description": "Check when Release Note content has been reviewed by Engineering"
+    },
+    {
+      "label": "Reviewed by PM",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_15i6qzs",
+        "columns": null
+      },
+      "id": "Field_1o4tsbj",
+      "key": "reviewedPM",
+      "description": "Check when release note content has been reviewed by Product Management"
+    }
+  ],
+  "schemaVersion": 9,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "bd35223"
+  },
+  "type": "default",
+  "id": "Form_1fg87g5",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0"
+}</zeebe:userTaskForm>
+      <zeebe:userTaskForm id="userTaskForm_27jpsnb">{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "8.3.0",
+          "value": "8.3.0"
+        },
+        {
+          "label": "8.3.1",
+          "value": "8.3.1"
+        }
+      ],
+      "label": "Target Release Version",
+      "type": "select",
+      "layout": {
+        "row": "Row_1x8xapm",
+        "columns": null
+      },
+      "id": "Field_0r3v3p4",
+      "key": "targetReleaseVersion",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "8.3.0-alpha1",
+          "value": "8.3.0-alpha1"
+        },
+        {
+          "label": "8.3.0-alpha2",
+          "value": "8.3.0-alpha2"
+        }
+      ],
+      "label": "Released in Version",
+      "type": "select",
+      "layout": {
+        "row": "Row_1oq0eko",
+        "columns": null
+      },
+      "id": "Field_09q9a9k",
+      "key": "field_13d5l76",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Zeebe Broker",
+          "value": "Zeebe Broker"
+        },
+        {
+          "label": "Zeebe Client",
+          "value": "Zeebe Client"
+        },
+        {
+          "label": "Operate",
+          "value": "Operate"
+        },
+        {
+          "label": "Tasklist",
+          "value": "Tasklist"
+        },
+        {
+          "label": "Optimize",
+          "value": "Optimize"
+        }
+      ],
+      "label": "Component",
+      "type": "select",
+      "layout": {
+        "row": "Row_1hoq1h1",
+        "columns": null
+      },
+      "id": "Field_178iess",
+      "key": "field_1qf7udb",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Value",
+          "value": "value"
+        },
+        {
+          "label": "Enhancement",
+          "value": "Enhancement"
+        },
+        {
+          "label": "Bug Fix",
+          "value": "Bug Fix"
+        }
+      ],
+      "label": "Issue Type",
+      "type": "select",
+      "layout": {
+        "row": "Row_0ing7gx",
+        "columns": null
+      },
+      "id": "Field_15iuoog",
+      "key": "field_1jzdp3c",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "GitHub Issue Title",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ljwkgc",
+        "columns": null
+      },
+      "id": "Field_0h4u2od",
+      "key": "githubIssueTitle",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "GitHub Issue URL",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0fsjtgk",
+        "columns": null
+      },
+      "id": "Field_0tewemb",
+      "key": "githubIssueUrl",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Include in Release Notes?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1bb79qs",
+        "columns": null
+      },
+      "id": "Field_1yr251k",
+      "key": "includeInReleaseNotes",
+      "defaultValue": true
+    },
+    {
+      "label": "Issue Title",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0f85xf7",
+        "columns": null
+      },
+      "id": "Field_0tl3gu6",
+      "key": "issueTitle"
+    },
+    {
+      "label": "Release Note Text",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_08bisaj",
+        "columns": null
+      },
+      "id": "Field_03myn2n",
+      "key": "releaseNoteText",
+      "description": "The release note text, in the form of a \"Cause-Consequence-Fix-Result\" story."
+    },
+    {
+      "label": "Needs more info",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0rf85s6",
+        "columns": null
+      },
+      "id": "Field_1y4wzdo",
+      "key": "needsInfo",
+      "defaultValue": true
+    },
+    {
+      "label": "Reviewed by Engineering",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_01hbxjw",
+        "columns": null
+      },
+      "id": "Field_01bx3yg",
+      "key": "reviewedEngineering",
+      "description": "Check when Release Note content has been reviewed by Engineering"
+    },
+    {
+      "label": "Reviewed by PM",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_15i6qzs",
+        "columns": null
+      },
+      "id": "Field_1o4tsbj",
+      "key": "reviewedPM",
+      "description": "Check when release note content has been reviewed by Product Management"
+    }
+  ],
+  "schemaVersion": 9,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "bd35223"
+  },
+  "type": "default",
+  "id": "Form_1fg87g5",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0"
+}</zeebe:userTaskForm>
+      <zeebe:userTaskForm id="userTaskForm_3c43crv">{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "8.3.0",
+          "value": "8.3.0"
+        },
+        {
+          "label": "8.3.1",
+          "value": "8.3.1"
+        }
+      ],
+      "label": "Target Release Version",
+      "type": "select",
+      "layout": {
+        "row": "Row_1x8xapm",
+        "columns": null
+      },
+      "id": "Field_0r3v3p4",
+      "key": "targetReleaseVersion",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "8.3.0-alpha1",
+          "value": "8.3.0-alpha1"
+        },
+        {
+          "label": "8.3.0-alpha2",
+          "value": "8.3.0-alpha2"
+        }
+      ],
+      "label": "Released in Version",
+      "type": "select",
+      "layout": {
+        "row": "Row_1oq0eko",
+        "columns": null
+      },
+      "id": "Field_09q9a9k",
+      "key": "field_13d5l76",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Zeebe Broker",
+          "value": "Zeebe Broker"
+        },
+        {
+          "label": "Zeebe Client",
+          "value": "Zeebe Client"
+        },
+        {
+          "label": "Operate",
+          "value": "Operate"
+        },
+        {
+          "label": "Tasklist",
+          "value": "Tasklist"
+        },
+        {
+          "label": "Optimize",
+          "value": "Optimize"
+        }
+      ],
+      "label": "Component",
+      "type": "select",
+      "layout": {
+        "row": "Row_1hoq1h1",
+        "columns": null
+      },
+      "id": "Field_178iess",
+      "key": "field_1qf7udb",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Value",
+          "value": "value"
+        },
+        {
+          "label": "Enhancement",
+          "value": "Enhancement"
+        },
+        {
+          "label": "Bug Fix",
+          "value": "Bug Fix"
+        }
+      ],
+      "label": "Issue Type",
+      "type": "select",
+      "layout": {
+        "row": "Row_0ing7gx",
+        "columns": null
+      },
+      "id": "Field_15iuoog",
+      "key": "field_1jzdp3c",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "GitHub Issue Title",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ljwkgc",
+        "columns": null
+      },
+      "id": "Field_0h4u2od",
+      "key": "githubIssueTitle",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "GitHub Issue URL",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0fsjtgk",
+        "columns": null
+      },
+      "id": "Field_0tewemb",
+      "key": "githubIssueUrl",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Include in Release Notes?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1bb79qs",
+        "columns": null
+      },
+      "id": "Field_1yr251k",
+      "key": "includeInReleaseNotes",
+      "defaultValue": true
+    },
+    {
+      "label": "Issue Title",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0f85xf7",
+        "columns": null
+      },
+      "id": "Field_0tl3gu6",
+      "key": "issueTitle"
+    },
+    {
+      "label": "Release Note Text",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_08bisaj",
+        "columns": null
+      },
+      "id": "Field_03myn2n",
+      "key": "releaseNoteText",
+      "description": "The release note text, in the form of a \"Cause-Consequence-Fix-Result\" story."
+    },
+    {
+      "label": "Needs more info",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0rf85s6",
+        "columns": null
+      },
+      "id": "Field_1y4wzdo",
+      "key": "needsInfo",
+      "defaultValue": true
+    },
+    {
+      "label": "Reviewed by Engineering",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_01hbxjw",
+        "columns": null
+      },
+      "id": "Field_01bx3yg",
+      "key": "reviewedEngineering",
+      "description": "Check when Release Note content has been reviewed by Engineering"
+    },
+    {
+      "label": "Reviewed by PM",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_15i6qzs",
+        "columns": null
+      },
+      "id": "Field_1o4tsbj",
+      "key": "reviewedPM",
+      "description": "Check when release note content has been reviewed by Product Management"
+    }
+  ],
+  "schemaVersion": 9,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "bd35223"
+  },
+  "type": "default",
+  "id": "Form_1fg87g5",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0"
+}</zeebe:userTaskForm>
+    </bpmn:extensionElements>
+    <bpmn:startEvent id="StartEvent_1" name="New issue in release">
+      <bpmn:outgoing>Flow_0ijub79</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="Flow_0ijub79" sourceRef="StartEvent_1" targetRef="Activity_0scy3m7" />
+    <bpmn:userTask id="Activity_0scy3m7" name="Create New Issue">
+      <bpmn:extensionElements>
+        <zeebe:formDefinition formKey="camunda-forms:bpmn:userTaskForm_0h101cj" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_0ijub79</bpmn:incoming>
+      <bpmn:outgoing>Flow_1tjscjf</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:sequenceFlow id="Flow_1tjscjf" sourceRef="Activity_0scy3m7" targetRef="Activity_0ldccn6" />
+    <bpmn:serviceTask id="Activity_0ldccn6" name="Upsert to database">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="upsert-record" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1tjscjf</bpmn:incoming>
+      <bpmn:outgoing>Flow_1hq13xc</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_1hq13xc" sourceRef="Activity_0ldccn6" targetRef="Activity_0fhqzdo" />
+    <bpmn:userTask id="Activity_0fhqzdo" name="Write Release Note">
+      <bpmn:extensionElements>
+        <zeebe:formDefinition formKey="camunda-forms:bpmn:userTaskForm_1pi7002" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1hq13xc</bpmn:incoming>
+      <bpmn:outgoing>Flow_09j64g4</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:sequenceFlow id="Flow_09j64g4" sourceRef="Activity_0fhqzdo" targetRef="Activity_03xh5om" />
+    <bpmn:exclusiveGateway id="Gateway_1hqbmgf" name="Needs more info?" default="Flow_0pxxi6a">
+      <bpmn:incoming>Flow_1l3xfjg</bpmn:incoming>
+      <bpmn:outgoing>Flow_0k6nwxh</bpmn:outgoing>
+      <bpmn:outgoing>Flow_0pxxi6a</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:sequenceFlow id="Flow_1l3xfjg" sourceRef="Activity_03xh5om" targetRef="Gateway_1hqbmgf" />
+    <bpmn:sequenceFlow id="Flow_0k6nwxh" name="Yes" sourceRef="Gateway_1hqbmgf" targetRef="Activity_1n5tkil">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">=needsMoreInfo=true</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:userTask id="Activity_1n5tkil" name="Gather more information">
+      <bpmn:extensionElements>
+        <zeebe:formDefinition formKey="camunda-forms:bpmn:userTaskForm_16gbnbk" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_0k6nwxh</bpmn:incoming>
+      <bpmn:incoming>Flow_042bafi</bpmn:incoming>
+      <bpmn:incoming>Flow_0pyzsav</bpmn:incoming>
+      <bpmn:outgoing>Flow_1nxmy3y</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:exclusiveGateway id="Gateway_1hcjy2u" name="Needs more info?" default="Flow_1890cfx">
+      <bpmn:incoming>Flow_1866kvb</bpmn:incoming>
+      <bpmn:incoming>Flow_06o22kn</bpmn:incoming>
+      <bpmn:outgoing>Flow_042bafi</bpmn:outgoing>
+      <bpmn:outgoing>Flow_1890cfx</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:sequenceFlow id="Flow_1nxmy3y" sourceRef="Activity_1n5tkil" targetRef="Activity_1d9ka90" />
+    <bpmn:sequenceFlow id="Flow_042bafi" name="Yes" sourceRef="Gateway_1hcjy2u" targetRef="Activity_1n5tkil">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">=needsMoreInfo=true</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_1890cfx" name="No" sourceRef="Gateway_1hcjy2u" targetRef="Gateway_1yqjgg3" />
+    <bpmn:userTask id="Activity_051nak5" name="Engineering review">
+      <bpmn:extensionElements>
+        <zeebe:formDefinition formKey="camunda-forms:bpmn:userTaskForm_27jpsnb" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_046aewk</bpmn:incoming>
+      <bpmn:outgoing>Flow_16ydn7f</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:sequenceFlow id="Flow_0pxxi6a" name="No" sourceRef="Gateway_1hqbmgf" targetRef="Gateway_1yqjgg3" />
+    <bpmn:exclusiveGateway id="Gateway_1rbooq0" name="Needs PM review?" default="Flow_1p20wa2">
+      <bpmn:incoming>Flow_1kxgvn6</bpmn:incoming>
+      <bpmn:incoming>Flow_01fnkrb</bpmn:incoming>
+      <bpmn:outgoing>Flow_1brdbh1</bpmn:outgoing>
+      <bpmn:outgoing>Flow_1p20wa2</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:sequenceFlow id="Flow_16ydn7f" sourceRef="Activity_051nak5" targetRef="Activity_0nam6gl" />
+    <bpmn:exclusiveGateway id="Gateway_1yqjgg3" name="Needs Engineering Review?" default="Flow_1kxgvn6">
+      <bpmn:incoming>Flow_1890cfx</bpmn:incoming>
+      <bpmn:incoming>Flow_0pxxi6a</bpmn:incoming>
+      <bpmn:outgoing>Flow_046aewk</bpmn:outgoing>
+      <bpmn:outgoing>Flow_1kxgvn6</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:sequenceFlow id="Flow_046aewk" name="Yes" sourceRef="Gateway_1yqjgg3" targetRef="Activity_051nak5">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">=reviewedEngineering=false</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_1kxgvn6" name="No" sourceRef="Gateway_1yqjgg3" targetRef="Gateway_1rbooq0" />
+    <bpmn:sequenceFlow id="Flow_1brdbh1" name="Yes" sourceRef="Gateway_1rbooq0" targetRef="Activity_1bnpqsd">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">=reviewedPM=false</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:userTask id="Activity_1bnpqsd" name="PM Review">
+      <bpmn:extensionElements>
+        <zeebe:formDefinition formKey="camunda-forms:bpmn:userTaskForm_3c43crv" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1brdbh1</bpmn:incoming>
+      <bpmn:outgoing>Flow_1jtts9r</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:sequenceFlow id="Flow_06o22kn" sourceRef="Activity_1jrjndc" targetRef="Gateway_1hcjy2u" />
+    <bpmn:serviceTask id="Activity_03xh5om" name="Upsert to database">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="upsert-record" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_09j64g4</bpmn:incoming>
+      <bpmn:outgoing>Flow_1l3xfjg</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_1d9ka90" name="Upsert to database">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="upsert-record" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1nxmy3y</bpmn:incoming>
+      <bpmn:outgoing>Flow_1866kvb</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_1866kvb" sourceRef="Activity_1d9ka90" targetRef="Gateway_1hcjy2u" />
+    <bpmn:serviceTask id="Activity_0nam6gl" name="Upsert to database">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="upsert-record" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_16ydn7f</bpmn:incoming>
+      <bpmn:outgoing>Flow_03qve7q</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_03qve7q" sourceRef="Activity_0nam6gl" targetRef="Gateway_0e8avhd" />
+    <bpmn:serviceTask id="Activity_1jrjndc" name="Upsert to database">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="upsert-record" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1jtts9r</bpmn:incoming>
+      <bpmn:outgoing>Flow_06o22kn</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_1jtts9r" sourceRef="Activity_1bnpqsd" targetRef="Activity_1jrjndc" />
+    <bpmn:sequenceFlow id="Flow_1p20wa2" name="No" sourceRef="Gateway_1rbooq0" targetRef="Event_0qj00h6" />
+    <bpmn:endEvent id="Event_0qj00h6" name="Release Note complete">
+      <bpmn:incoming>Flow_1p20wa2</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:exclusiveGateway id="Gateway_0e8avhd" name="Needs more info?" default="Flow_01fnkrb">
+      <bpmn:incoming>Flow_03qve7q</bpmn:incoming>
+      <bpmn:outgoing>Flow_01fnkrb</bpmn:outgoing>
+      <bpmn:outgoing>Flow_0pyzsav</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:sequenceFlow id="Flow_01fnkrb" name="No" sourceRef="Gateway_0e8avhd" targetRef="Gateway_1rbooq0" />
+    <bpmn:sequenceFlow id="Flow_0pyzsav" name="Yes" sourceRef="Gateway_0e8avhd" targetRef="Activity_1n5tkil">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">=needsMoreInfo=true</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:textAnnotation id="TextAnnotation_17h64iq">
+      <bpmn:text>We're upserting the payload every time, so that we can migrate inflight processes to a new version of the model, if needed.</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:association id="Association_1jrth7n" sourceRef="Activity_0ldccn6" targetRef="TextAnnotation_17h64iq" />
+    <bpmn:textAnnotation id="TextAnnotation_0b65xdk">
+      <bpmn:text>Here we grab the details from the releases page</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:association id="Association_1h5ykv3" sourceRef="Activity_0scy3m7" targetRef="TextAnnotation_0b65xdk" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_0ghewer">
+      <bpmndi:BPMNShape id="TextAnnotation_17h64iq_di" bpmnElement="TextAnnotation_17h64iq">
+        <dc:Bounds x="510" y="80" width="280" height="55" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_0b65xdk_di" bpmnElement="TextAnnotation_0b65xdk">
+        <dc:Bounds x="290" y="350" width="150" height="60" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="162" y="232" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="149" y="275" width="63" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_06jnq6u_di" bpmnElement="Activity_0scy3m7">
+        <dc:Bounds x="250" y="210" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_05u1uao_di" bpmnElement="Activity_0ldccn6">
+        <dc:Bounds x="410" y="210" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0880bgl_di" bpmnElement="Activity_0fhqzdo">
+        <dc:Bounds x="570" y="210" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_1hqbmgf_di" bpmnElement="Gateway_1hqbmgf" isMarkerVisible="true">
+        <dc:Bounds x="895" y="225" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="876" y="201" width="87" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0sxnr3m_di" bpmnElement="Activity_1n5tkil">
+        <dc:Bounds x="1010" y="210" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0ddhs37_di" bpmnElement="Activity_03xh5om">
+        <dc:Bounds x="730" y="210" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_1hcjy2u_di" bpmnElement="Gateway_1hcjy2u" isMarkerVisible="true">
+        <dc:Bounds x="1325" y="225" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1307" y="282" width="87" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0x3bag6_di" bpmnElement="Activity_051nak5">
+        <dc:Bounds x="1600" y="210" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_1yqjgg3_di" bpmnElement="Gateway_1yqjgg3" isMarkerVisible="true">
+        <dc:Bounds x="1475" y="225" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1471" y="282" width="59" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_0snrppg" bpmnElement="Activity_1d9ka90">
+        <dc:Bounds x="1160" y="210" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_1rbooq0_di" bpmnElement="Gateway_1rbooq0" isMarkerVisible="true">
+        <dc:Bounds x="2115" y="225" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="2154" y="206" width="52" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0hatul1_di" bpmnElement="Activity_1bnpqsd">
+        <dc:Bounds x="2260" y="210" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_1py0fjv" bpmnElement="Activity_1jrjndc">
+        <dc:Bounds x="2410" y="210" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0qj00h6_di" bpmnElement="Event_0qj00h6">
+        <dc:Bounds x="2622" y="342" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="2607" y="385" width="67" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_0e8avhd_di" bpmnElement="Gateway_0e8avhd" isMarkerVisible="true">
+        <dc:Bounds x="1945" y="225" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1927" y="282" width="87" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_1ajlz4u" bpmnElement="Activity_0nam6gl">
+        <dc:Bounds x="1780" y="210" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Association_1jrth7n_di" bpmnElement="Association_1jrth7n">
+        <di:waypoint x="489" y="210" />
+        <di:waypoint x="543" y="135" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Association_1h5ykv3_di" bpmnElement="Association_1h5ykv3">
+        <di:waypoint x="314" y="290" />
+        <di:waypoint x="335" y="350" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0ijub79_di" bpmnElement="Flow_0ijub79">
+        <di:waypoint x="198" y="250" />
+        <di:waypoint x="250" y="250" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1tjscjf_di" bpmnElement="Flow_1tjscjf">
+        <di:waypoint x="350" y="250" />
+        <di:waypoint x="410" y="250" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1hq13xc_di" bpmnElement="Flow_1hq13xc">
+        <di:waypoint x="510" y="250" />
+        <di:waypoint x="570" y="250" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_09j64g4_di" bpmnElement="Flow_09j64g4">
+        <di:waypoint x="670" y="250" />
+        <di:waypoint x="730" y="250" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1l3xfjg_di" bpmnElement="Flow_1l3xfjg">
+        <di:waypoint x="830" y="250" />
+        <di:waypoint x="895" y="250" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0k6nwxh_di" bpmnElement="Flow_0k6nwxh">
+        <di:waypoint x="945" y="250" />
+        <di:waypoint x="1010" y="250" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="969" y="232" width="18" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0pxxi6a_di" bpmnElement="Flow_0pxxi6a">
+        <di:waypoint x="920" y="275" />
+        <di:waypoint x="920" y="350" />
+        <di:waypoint x="1430" y="350" />
+        <di:waypoint x="1430" y="250" />
+        <di:waypoint x="1475" y="250" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1169" y="332" width="15" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_042bafi_di" bpmnElement="Flow_042bafi">
+        <di:waypoint x="1350" y="225" />
+        <di:waypoint x="1350" y="170" />
+        <di:waypoint x="1060" y="170" />
+        <di:waypoint x="1060" y="210" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1196" y="152" width="18" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1nxmy3y_di" bpmnElement="Flow_1nxmy3y">
+        <di:waypoint x="1110" y="250" />
+        <di:waypoint x="1160" y="250" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1866kvb_di" bpmnElement="Flow_1866kvb">
+        <di:waypoint x="1260" y="250" />
+        <di:waypoint x="1325" y="250" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1890cfx_di" bpmnElement="Flow_1890cfx">
+        <di:waypoint x="1375" y="250" />
+        <di:waypoint x="1475" y="250" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1405" y="232" width="15" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_046aewk_di" bpmnElement="Flow_046aewk">
+        <di:waypoint x="1525" y="250" />
+        <di:waypoint x="1600" y="250" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1554" y="232" width="18" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_16ydn7f_di" bpmnElement="Flow_16ydn7f">
+        <di:waypoint x="1700" y="250" />
+        <di:waypoint x="1780" y="250" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_06o22kn_di" bpmnElement="Flow_06o22kn">
+        <di:waypoint x="2460" y="210" />
+        <di:waypoint x="2460" y="120" />
+        <di:waypoint x="1300" y="120" />
+        <di:waypoint x="1300" y="250" />
+        <di:waypoint x="1325" y="250" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1kxgvn6_di" bpmnElement="Flow_1kxgvn6">
+        <di:waypoint x="1500" y="225" />
+        <di:waypoint x="1500" y="170" />
+        <di:waypoint x="2140" y="170" />
+        <di:waypoint x="2140" y="225" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1813" y="152" width="15" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_03qve7q_di" bpmnElement="Flow_03qve7q">
+        <di:waypoint x="1880" y="250" />
+        <di:waypoint x="1945" y="250" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1brdbh1_di" bpmnElement="Flow_1brdbh1">
+        <di:waypoint x="2165" y="250" />
+        <di:waypoint x="2260" y="250" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="2204" y="253" width="18" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1p20wa2_di" bpmnElement="Flow_1p20wa2">
+        <di:waypoint x="2140" y="275" />
+        <di:waypoint x="2140" y="360" />
+        <di:waypoint x="2622" y="360" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="2405" y="337" width="15" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1jtts9r_di" bpmnElement="Flow_1jtts9r">
+        <di:waypoint x="2360" y="250" />
+        <di:waypoint x="2410" y="250" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_01fnkrb_di" bpmnElement="Flow_01fnkrb">
+        <di:waypoint x="1995" y="250" />
+        <di:waypoint x="2115" y="250" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="2048" y="232" width="15" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0pyzsav_di" bpmnElement="Flow_0pyzsav">
+        <di:waypoint x="1970" y="225" />
+        <di:waypoint x="1970" y="80" />
+        <di:waypoint x="1060" y="80" />
+        <di:waypoint x="1060" y="210" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1506" y="62" width="18" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

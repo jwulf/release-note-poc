@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "8.3.0",
+          "value": "8.3.0"
+        },
+        {
+          "label": "8.3.1",
+          "value": "8.3.1"
+        }
+      ],
+      "label": "Target Release Version",
+      "type": "select",
+      "layout": {
+        "row": "Row_1x8xapm",
+        "columns": null
+      },
+      "id": "Field_0r3v3p4",
+      "key": "targetReleaseVersion",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "8.3.0-alpha1",
+          "value": "8.3.0-alpha1"
+        },
+        {
+          "label": "8.3.0-alpha2",
+          "value": "8.3.0-alpha2"
+        }
+      ],
+      "label": "Released in Version",
+      "type": "select",
+      "layout": {
+        "row": "Row_1oq0eko",
+        "columns": null
+      },
+      "id": "Field_09q9a9k",
+      "key": "field_13d5l76",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Zeebe Broker",
+          "value": "Zeebe Broker"
+        },
+        {
+          "label": "Zeebe Client",
+          "value": "Zeebe Client"
+        },
+        {
+          "label": "Operate",
+          "value": "Operate"
+        },
+        {
+          "label": "Tasklist",
+          "value": "Tasklist"
+        },
+        {
+          "label": "Optimize",
+          "value": "Optimize"
+        }
+      ],
+      "label": "Component",
+      "type": "select",
+      "layout": {
+        "row": "Row_1hoq1h1",
+        "columns": null
+      },
+      "id": "Field_178iess",
+      "key": "field_1qf7udb",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Value",
+          "value": "value"
+        },
+        {
+          "label": "Enhancement",
+          "value": "Enhancement"
+        },
+        {
+          "label": "Bug Fix",
+          "value": "Bug Fix"
+        }
+      ],
+      "label": "Issue Type",
+      "type": "select",
+      "layout": {
+        "row": "Row_0ing7gx",
+        "columns": null
+      },
+      "id": "Field_15iuoog",
+      "key": "field_1jzdp3c",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "GitHub Issue Title",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ljwkgc",
+        "columns": null
+      },
+      "id": "Field_0h4u2od",
+      "key": "githubIssueTitle",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "GitHub Issue URL",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0fsjtgk",
+        "columns": null
+      },
+      "id": "Field_0tewemb",
+      "key": "githubIssueUrl",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Include in Release Notes?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1bb79qs",
+        "columns": null
+      },
+      "id": "Field_1yr251k",
+      "key": "includeInReleaseNotes",
+      "defaultValue": true
+    },
+    {
+      "label": "Issue Title",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0f85xf7",
+        "columns": null
+      },
+      "id": "Field_0tl3gu6",
+      "key": "issueTitle"
+    },
+    {
+      "label": "Release Note Text",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_08bisaj",
+        "columns": null
+      },
+      "id": "Field_03myn2n",
+      "key": "releaseNoteText",
+      "description": "The release note text, in the form of a \"Cause-Consequence-Fix-Result\" story."
+    },
+    {
+      "label": "Needs more info",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0rf85s6",
+        "columns": null
+      },
+      "id": "Field_1y4wzdo",
+      "key": "needsInfo",
+      "defaultValue": true
+    },
+    {
+      "label": "Reviewed by Engineering",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_01hbxjw",
+        "columns": null
+      },
+      "id": "Field_01bx3yg",
+      "key": "reviewedEngineering",
+      "description": "Check when Release Note content has been reviewed by Engineering"
+    },
+    {
+      "label": "Reviewed by PM",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_15i6qzs",
+        "columns": null
+      },
+      "id": "Field_1o4tsbj",
+      "key": "reviewedPM",
+      "description": "Check when release note content has been reviewed by Product Management"
+    }
+  ],
+  "schemaVersion": 9,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "bd35223"
+  },
+  "type": "default",
+  "id": "Form_1fg87g5",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0"
+}
