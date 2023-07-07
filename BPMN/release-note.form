@@ -32,6 +32,14 @@
         {
           "label": "8.3.0-alpha2",
           "value": "8.3.0-alpha2"
+        },
+        {
+          "label": "8.3.0-alpha3",
+          "value": "8.3.0-alpha3"
+        },
+        {
+          "label": "8.3.0",
+          "value": "8.3.0"
         }
       ],
       "label": "Released in Version",
@@ -41,7 +49,7 @@
         "columns": null
       },
       "id": "Field_09q9a9k",
-      "key": "field_13d5l76",
+      "key": "releasedInVersion",
       "validate": {
         "required": true
       }
@@ -76,7 +84,7 @@
         "columns": null
       },
       "id": "Field_178iess",
-      "key": "field_1qf7udb",
+      "key": "component",
       "validate": {
         "required": true
       }
@@ -96,14 +104,14 @@
           "value": "Bug Fix"
         }
       ],
-      "label": "Issue Type",
+      "label": "Release Note Type",
       "type": "select",
       "layout": {
         "row": "Row_0ing7gx",
         "columns": null
       },
       "id": "Field_15iuoog",
-      "key": "field_1jzdp3c",
+      "key": "releaseNoteType",
       "validate": {
         "required": true
       }
@@ -135,6 +143,16 @@
       }
     },
     {
+      "label": "Related Issues",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0sgwnkc",
+        "columns": null
+      },
+      "id": "Field_0ja3vm3",
+      "key": "relatedIssues"
+    },
+    {
       "label": "Include in Release Notes?",
       "type": "checkbox",
       "layout": {
@@ -146,14 +164,14 @@
       "defaultValue": true
     },
     {
-      "label": "Issue Title",
+      "label": "Release Note Title",
       "type": "textfield",
       "layout": {
         "row": "Row_0f85xf7",
         "columns": null
       },
       "id": "Field_0tl3gu6",
-      "key": "issueTitle"
+      "key": "releaseNoteTitle"
     },
     {
       "label": "Release Note Text",
@@ -174,8 +192,18 @@
         "columns": null
       },
       "id": "Field_1y4wzdo",
-      "key": "needsInfo",
+      "key": "needsMoreInfo",
       "defaultValue": true
+    },
+    {
+      "label": "Engineering Feedback",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_084ecwe",
+        "columns": null
+      },
+      "id": "Field_0eoslfw",
+      "key": "engineeringFeedback"
     },
     {
       "label": "Reviewed by Engineering",
@@ -187,6 +215,16 @@
       "id": "Field_01bx3yg",
       "key": "reviewedEngineering",
       "description": "Check when Release Note content has been reviewed by Engineering"
+    },
+    {
+      "label": "PM Feedback",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0l0u02a",
+        "columns": null
+      },
+      "id": "Field_14bb2fn",
+      "key": "pmFeedback"
     },
     {
       "label": "Reviewed by PM",
@@ -203,7 +241,7 @@
   "schemaVersion": 9,
   "exporter": {
     "name": "Camunda Web Modeler",
-    "version": "bd35223"
+    "version": "48d65f3"
   },
   "type": "default",
   "id": "Form_1fg87g5",

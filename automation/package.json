@@ -1,0 +1,7 @@
+{
+	"dependencies": {
+		"@google-cloud/firestore": "^6.6.1",
+		"dotenv": "^16.3.1",
+		"zeebe-node": "^8.2.5"
+	}
+}
