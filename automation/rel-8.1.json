@@ -1,0 +1,1748 @@
+[
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13715",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13650",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13431",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13190",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13046",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12007",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11460",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13645",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11799",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13737",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13680",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13675",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13667",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13659",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13655",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13646",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13628",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13624",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13623",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13608",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13498",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13441",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13414",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13411",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13404",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13308",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13298",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12816",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12066",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5003",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5015",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5060",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5044",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5052",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4931",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4922",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5065",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4968",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3235",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3104",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.15",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1955",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13233",
+      "component": "Zeebe",
+      "subcomponent": "Broker",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/6232",
+      "component": "Zeebe",
+      "subcomponent": "Broker",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13254",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13164",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/8955",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13037",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13310",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13278",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13264",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13260",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13258",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13256",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13206",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13139",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13138",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13112",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13069",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13043",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13039",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4746",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4766",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4846",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4843",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4739",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3139",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3180",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3128",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3138",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3137",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1905",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.14",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1898",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12793",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12575",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/2890",
+      "component": "Zeebe",
+      "subcomponent": "Broker",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12374",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11578",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12968",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12877",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12868",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12853",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12760",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12697",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12692",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12576",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12533",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4584",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4663",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4619",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4604",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4487",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4544",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4670",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4659",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4499",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4472",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4529",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3060",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/2962",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/2884",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1815",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1766",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.13",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1803",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.12",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12539",
+      "component": "release/8.1.12",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    }
+  },
+  {
+    "version": "8.1.12",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12538",
+      "component": "release/8.1.12",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    }
+  },
+  {
+    "version": "8.1.12",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12537",
+      "component": "release/8.1.12",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    }
+  },
+  {
+    "version": "8.1.12",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11355",
+      "component": "release/8.1.12",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.12",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12577",
+      "component": "release/8.1.12",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    }
+  },
+  {
+    "version": "8.1.12",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12604",
+      "component": "release/8.1.12",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.12",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12596",
+      "component": "release/8.1.12",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.12",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12579",
+      "component": "release/8.1.12",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.12",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12542",
+      "component": "release/8.1.12",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.12",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12486",
+      "component": "release/8.1.12",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.12",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12483",
+      "component": "release/8.1.12",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.12",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4486",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    }
+  },
+  {
+    "version": "8.1.12",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4441",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.12",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4480",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.12",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4474",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.12",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/2876",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.12",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1751",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12416",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12509",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12173",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11414",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12034",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12028",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12510",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12497",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12482",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12475",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12428",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12406",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12397",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12367",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12358",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12306",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12305",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12304",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12300",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12263",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12256",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12196",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/12106",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4382",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4427",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4399",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.11",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4350",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.10",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11848",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.10",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/11993",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.10",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4253",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    }
+  },
+  {
+    "version": "8.1.10",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4271",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.10",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4249",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.10",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4347",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.10",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/2749",
+      "component": "Tasklist ",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.10",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1732",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.10",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1743",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11876",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11784",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/8298",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11762",
+      "component": "Zeebe",
+      "subcomponent": "Broker",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11958",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11846",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11816",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11665",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11922",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/11937",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/11877",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/11870",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/11851",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/11831",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/11817",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/11800",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/11792",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/11791",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/11781",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/11776",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/11743",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/11656",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/11495",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4229",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/2571",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/2542",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/2604",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/2577",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1593",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1653",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1643",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1635",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1616",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1619",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1610",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1599",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1600",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  },
+  {
+    "version": "8.1.9",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1580",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    }
+  }
+]
