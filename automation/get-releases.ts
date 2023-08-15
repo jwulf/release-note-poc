@@ -81,23 +81,6 @@ function getIssues(note: string) {
     return issues
 }
 
-function compareReleases() {
-    type smap = {[key: string]: string}[]
-    const releases_8_3 = JSON.parse(fs.readFileSync('rel-8.3.json', 'utf-8')) as smap
-    const releases_8_2 = JSON.parse(fs.readFileSync('rel-8.2.json', 'utf-8')) as smap
-
-    const releaseReport = releases_8_3.map(val => {
-        const release = Object.keys(val)[0]
-        const issue = val[release]        
-        const inVersion = releases_8_2.filter(val => (issue == Object.values(val)[0]))
-        return {...val, release, issue, in: inVersion.length > 0 ? Object.keys(inVersion[0])[0] : 'NOTHING'}
-    })
-    fs.writeFileSync('rel-8.3-report.raw.json', JSON.stringify(releaseReport, null, 2))
-    const unique = releaseReport.filter(val => (val.in == 'NOTHING'))
-    console.log(unique)
-    fs.writeFileSync('rel-8.3-report.json', JSON.stringify(unique, null, 2))
-}
 
 main()
 
-// compareReleases()

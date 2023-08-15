@@ -20,7 +20,7 @@ const port = 3000
 
 app.listen(port, () => console.log(`Serving on http://127.0.0.1:3000...`))
 
-const releases = JSON.parse(fs.readFileSync('rel-8.3-report.raw.json', 'utf-8'))
+const releases = JSON.parse(fs.readFileSync('rel-8.3-report.json', 'utf-8'))
 
 app.get('/', (_, res) => {
     res.render('index', {list})

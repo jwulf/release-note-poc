@@ -1,5 +1,3146 @@
 [
   {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12382). This was done in order to better comply with the [OWASP recommendations on Docker Security](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html#rule-2-set-a-user)",
+      "component": "Zeebe",
+      "subcomponent": "Docker - user",
+      "context": "Breaking Changes ❗ "
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13024) from it. We recommend you to install it locally.",
+      "component": "Zeebe",
+      "subcomponent": "Docker - zbctl not included in the Docker image anymore",
+      "context": "Breaking Changes ❗ "
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13473",
+      "component": "Zeebe",
+      "subcomponent": "Java Client",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13460",
+      "component": "Zeebe",
+      "subcomponent": "Java Client",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13458",
+      "component": "Zeebe",
+      "subcomponent": "Java Client",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13456",
+      "component": "Zeebe",
+      "subcomponent": "Java Client",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13451",
+      "component": "Zeebe",
+      "subcomponent": "Java Client",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13449",
+      "component": "Zeebe",
+      "subcomponent": "Java Client",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13447",
+      "component": "Zeebe",
+      "subcomponent": "Java Client",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13443",
+      "component": "Zeebe",
+      "subcomponent": "Java Client",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13428",
+      "component": "Zeebe",
+      "subcomponent": "Java Client",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12302",
+      "component": "Zeebe",
+      "subcomponent": "Broker",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13024",
+      "component": "Zeebe",
+      "subcomponent": "zbctl",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13465",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13429",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13349",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13348",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13342",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13341",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13340",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13335",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13040",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12975",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12878",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12696",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    },
+    "also_in": [
+      "8.2.11"
+    ]
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12382",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11708",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Enhancements"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13233",
+      "component": "Zeebe",
+      "subcomponent": "Broker",
+      "context": "Bug Fixes"
+    },
+    "also_in": [
+      "8.1.14",
+      "8.2.8"
+    ]
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13715",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    },
+    "also_in": [
+      "8.1.15",
+      "8.2.11"
+    ]
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13650",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    },
+    "also_in": [
+      "8.1.15",
+      "8.2.10"
+    ]
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13471",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13431",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    },
+    "also_in": [
+      "8.1.15",
+      "8.2.11"
+    ]
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13061",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13046",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    },
+    "also_in": [
+      "8.1.15",
+      "8.2.9"
+    ]
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13041",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12886",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12007",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Bug Fixes"
+    },
+    "also_in": [
+      "8.1.15",
+      "8.2.11"
+    ]
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13666",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13645",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    },
+    "also_in": [
+      "8.1.15",
+      "8.2.11"
+    ]
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13601",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13281",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13240",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/13214",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12959",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12859",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12601",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12427",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12390",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/12389",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11799",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    },
+    "also_in": [
+      "8.1.15",
+      "8.2.11"
+    ]
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11710",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/issues/11590",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Maintenance"
+    },
+    "also_in": [
+      "8.2.11"
+    ]
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/zeebe/pull/13376",
+      "component": "Zeebe",
+      "subcomponent": "Misc",
+      "context": "Merged Pull Requests"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5035",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4965",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4940",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4993",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4893",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4877",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4868",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4869",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4702",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4826",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4849",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5020",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5028",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5033",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5000",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5008",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4944",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4954",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4947",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4934",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4941",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4907",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4912",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4879",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5063",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5030",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5037",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5048",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5047",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5039",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5013",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4992",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5012",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4975",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4943",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4901",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4974",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4988",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4982",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5004",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4999",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4939",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/5001",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4976",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4996",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4962",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4959",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4957",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4911",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4970",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4956",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4956",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4955",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4958",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4946",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4814",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4816",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4833",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4952",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4950",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4935",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4917",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4918",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4885",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4865",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4924",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4904",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4905",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4899",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4902",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4921",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4923",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4830",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4881",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4897",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4890",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4883",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4878",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4876",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4838",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4837",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4781",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/operate/issues/4829",
+      "component": "Operate",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3266",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3256",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3233",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3219",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3184",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3168",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3169",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3251",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3235",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": [
+      "8.1.15",
+      "8.2.9"
+    ]
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3232",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3218",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3192",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3216",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3187",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3188",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3177",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3262",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3242",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3243",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3228",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3223",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3222",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3207",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3212",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3217",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3191",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3196",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3197",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3198",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3194",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/2816",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3183",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3171",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3181",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3185",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3178",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3170",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda/tasklist/issues/3165",
+      "component": "Tasklist",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1962",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1961",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1963",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1878",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1837",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1830",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1823",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1827",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1818",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1816",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1791",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1789",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1749",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🚀 New Features"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1953",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1941",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1940",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1933",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1932",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1931",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1921",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1912",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1899",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1907",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1890",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1881",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1889",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1886",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1879",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1876",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1874",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1814",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1825",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1824",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1804",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1780",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1775",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1768",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1758",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1757",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1756",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1737",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "💊 Bugfixes"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1964",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1958",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1951",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1954",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1952",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1947",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1949",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1948",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1946",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1945",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1944",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1942",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1943",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1934",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1939",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1937",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1935",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1925",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1924",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1908",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1923",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1919",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1922",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1918",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1916",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1917",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1914",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1913",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1904",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1911",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1909",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1910",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1896",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1906",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1897",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1902",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1877",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1895",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1893",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1894",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1891",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1892",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1849",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1883",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1888",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1882",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1875",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1865",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1863",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1864",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1861",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1862",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1856",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1854",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1852",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1834",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1850",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1839",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1829",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1838",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1833",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1836",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1832",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1826",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1828",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1820",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1822",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1808",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1806",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1807",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1805",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1798",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1795",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1800",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1533",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1796",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1794",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1781",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1782",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1792",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1777",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1778",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1776",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1759",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1772",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1769",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1764",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1765",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1761",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1747",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1755",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1754",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1753",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1752",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1735",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
+    "version": "8.3.0-alpha4",
+    "note": {
+      "githubUrl": "https://github.com/camunda-cloud/identity/issues/1736",
+      "component": "Identity",
+      "subcomponent": "Misc",
+      "context": "🧹 Chore"
+    },
+    "also_in": []
+  },
+  {
     "version": "8.3.0-alpha3",
     "note": {
       "githubUrl": "https://github.com/camunda/zeebe/issues/12655",
