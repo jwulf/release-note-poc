@@ -6,15 +6,18 @@
 		"@google-cloud/firestore": "^6.7.0",
 		"@octokit/rest": "^20.0.1",
 		"@types/express": "^4.17.17",
-		"camunda-8-sdk": "^0.10.0",
+		"camunda-8-sdk": "^0.11.0",
 		"dotenv": "^16.3.1",
 		"express": "^4.18.2",
 		"express-paginate": "^1.0.2",
+		"express-ws": "^5.0.2",
+		"openai": "^4.2.0",
 		"pug": "^3.0.2",
 		"zeebe-node": "^8.2.5"
 	},
 	"devDependencies": {
 		"@types/express-paginate": "^1.0.1",
+		"@types/express-ws": "^3.0.1",
 		"ts-node": "^10.9.1"
 	}
 }

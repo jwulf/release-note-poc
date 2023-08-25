@@ -1,7 +1,8 @@
 type ReleaseNoteType = 'Enhancement' | 'Bug Fix' | 'Breaking Change'
-type Component = 'Zeebe Broker' | 'Zeebe Client' | 'Operate' | 'Tasklist' | 'Optimize' | 'Identity'
+type Component = 'Zeebe Broker' | 'Zeebe Client' | 'Operate' | 'Tasklist' | 'Optimize' | 'Identity' | 'Zeebe'
 
 export interface FirestoreRecord {
+    id: string
     targetReleaseVersion: string
     releasedInVersion: string
     component: Component
@@ -17,4 +18,5 @@ export interface FirestoreRecord {
     reviewedEngineering: boolean
     pmFeedback: string
     reviewedPM: boolean
+    alsoReleasedIn: string[]
 }

@@ -1,4 +1,11 @@
 {
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "66b1756"
+  },
+  "schemaVersion": 10,
   "components": [
     {
       "values": [
@@ -40,6 +47,18 @@
         {
           "label": "8.3.0",
           "value": "8.3.0"
+        },
+        {
+          "label": "8.3.0-alpha4",
+          "value": "8.3.0-alpha4"
+        },
+        {
+          "label": "8.3.0-alpha5",
+          "value": "8.3.0-alpha5"
+        },
+        {
+          "label": "8.3.0-alpha6",
+          "value": "8.3.0-alpha6"
         }
       ],
       "label": "Released in Version",
@@ -75,6 +94,14 @@
         {
           "label": "Optimize",
           "value": "Optimize"
+        },
+        {
+          "label": "Identity",
+          "value": "Identity"
+        },
+        {
+          "label": "Zeebe",
+          "value": "Zeebe"
         }
       ],
       "label": "Component",
@@ -92,8 +119,8 @@
     {
       "values": [
         {
-          "label": "Value",
-          "value": "value"
+          "label": "Breaking Change",
+          "value": "Breaking Change"
         },
         {
           "label": "Enhancement",
@@ -238,13 +265,6 @@
       "description": "Check when release note content has been reviewed by Product Management"
     }
   ],
-  "schemaVersion": 9,
-  "exporter": {
-    "name": "Camunda Web Modeler",
-    "version": "48d65f3"
-  },
   "type": "default",
-  "id": "Form_1fg87g5",
-  "executionPlatform": "Camunda Cloud",
-  "executionPlatformVersion": "8.2.0"
+  "id": "Form_1fg87g5"
 }
